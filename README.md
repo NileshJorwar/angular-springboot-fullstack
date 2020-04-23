@@ -36,3 +36,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 6. Add httpclientmodule as imports under the app.module.ts to handle the rest requests. Add formsModule as well for receiving inputs.
 7. TO run the project use
     ``ng serve --open``
+8. To run the app in debug mode
+    ``Make sure to stop the app first, change the Settings to run JavaScript Debug to run in debug mode, then run the npm start which in turns run ng serve``

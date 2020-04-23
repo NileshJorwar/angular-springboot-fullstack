@@ -22,6 +22,17 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+###### Angular Prerequisites ####
+1. Download the angular CLI using (make sure you have installed npm before) 
+    ```npm install -g @angular/cli```
+   
+2. Once you have ng, create angular project using 
+    ```ng new project-name```
+3. To create the componentes
+    ```ng g c registration```
+4. To create the service
+    ```ng g s user-registration```
+5. Make sure to add the service to app.module.ts (providers) because the service handles business logic for consuming http endpoints
+6. Add httpclientmodule as imports under the app.module.ts to handle the rest requests. Add formsModule as well for receiving inputs.
+7. TO run the project use
+    ``ng serve --open``

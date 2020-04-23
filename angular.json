@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "user-registration-client"
+    }
+  },
+  "defaultProject": "user-registration-client",
+  "cli": {
+    "analytics": false
+  }
 }

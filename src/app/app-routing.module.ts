@@ -4,11 +4,13 @@ import {RegistrationComponent} from './registration/registration.component';
 import {SerachDeleteComponent} from './serach-delete/serach-delete.component';
 import {LoginComponent} from './login/login.component';
 import {HomepageComponent} from './homepage/homepage.component';
+import {CountdowntimerComponent} from './countdowntimer/countdowntimer.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomepageComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'countdowntimer', component: CountdowntimerComponent},
   {path: 'register', component: RegistrationComponent},
   {path: 'search', component: SerachDeleteComponent}
 ];

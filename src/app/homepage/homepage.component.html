@@ -18,19 +18,21 @@
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#login" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
-  </div>
+    <a href="#login" class="w3-bar-item w3-button w3-hide-small" routerLink="/login" routerLinkActive="active"><i class="fa fa-user"></i> LOGIN</a>
+    <a href="#register" class="w3-bar-item w3-button w3-hide-small" routerLink="/register" routerLinkActive="active"><i
+      class="fa fa-user"></i> REGISTER</a>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+  <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+  <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+  <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+</div>
+
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
@@ -45,37 +47,49 @@
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>I dont know what I love ...</em></p>
   <p>
-    I am Software Engineer with 4+ years of industry and academic experience. I am graduated with Bachelors degree from University of Mumbai. After which
-    I worked at TCS for almost two years as Automation Engineer and Developer using Java, Struts, Selenium Framework. I also worked with
-    Newgen for seven months in developing RESTful applications and using their products. Then I went for Masters in United States, did my
-    masters in Computer Science and then worked with Cognizant for three months on Springboot and ReactJS. I left Cognizant after few weeks of work
-    and joined Creospan and started working in Springboot and Cloud based technologies. Now during quarantine due to Coronavirus pandemic, working
+    I am Software Engineer with 4+ years of industry and academic experience. I am graduated with Bachelors degree from
+    University of Mumbai. After which
+    I worked at TCS for almost two years as Automation Engineer and Developer using Java, Struts, Selenium Framework. I
+    also worked with
+    Newgen for seven months in developing RESTful applications and using their products. Then I went for Masters in
+    United States, did my
+    masters in Computer Science and then worked with Cognizant for three months on Springboot and ReactJS. I left
+    Cognizant after few weeks of work
+    and joined Creospan and started working in Springboot and Cloud based technologies. Now during quarantine due to
+    Coronavirus pandemic, working
     on building my website in Angular and Springboot.
   </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Nilesh Balu Jorwar</b></p><br>
-      <img src="assets/images/myphoto.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500"
+      <img src="assets/images/myphoto.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+           width="500"
            height="333">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p> •	4+ years of experience in developing & testing of various large-scale web applications.
-        •	Expertise in Java programming and have good understanding on OOPs, Collections, Exceptions Handling, Input/output (I/O) System, Swing, Annotations, Concurrency, Multi-Threading, Lambda and Generics.
-        •	Expert level experience with Web based Application design & development using Java/ J2EETechnologies like JSP, JSF, JQuery, JavaScript, HTML5, CSS, XML and JMS.
-        •	Good experience working with the Java1.8 and JDK1.8 and implemented the new feature like Lambda Expressions, Streams, Java Time API.
-        •	Good experience in various modules of Spring framework like Spring IOC, Spring MVC, Spring Boot, Spring Data, Spring Integration, Spring Cloud Stream.
-        •	Expertise in implementing the persistence logic using JDBC, JPA, Spring JDBC, Hibernate framework.
-        •	Extensively worked on Micro Services using SpingBoot, Spring Cloud, Spring Data and REST.
-        •	Expertise in implementing Service Oriented Architecture by using SOAP and RESTful web services.
-        •	Experience using cloud service such as Pivotal Cloud Foundry and hands on experience using Amazon Web Services (AWS), services like EC2, S3, IAM, VPC, Route53, Cloud Watch, IAM, SNS etc.
-        •	Good Experience working with the SDLC methodologies like Agile Scrum, XP, TDD and Waterfall.
-        •	Hands-on experience with Application servers Tomcat, JBOSS.
-        •	Experience in using IDE tools like Eclipse, NetBeans, Intellij IDEA.
-        •	Experience in versioning tools like GitHub, SVN and Bitbucket.
-        •	Experience in using Maven build tools and performing unit test by writing Junit test cases using Junit Framework like Mockito.
-        •	Good experience working with Continuous Integration and Deployment (CI/CD) tools like Bamboo and Concourse.
+      <p> • 4+ years of experience in developing & testing of various large-scale web applications.
+        • Expertise in Java programming and have good understanding on OOPs, Collections, Exceptions Handling,
+        Input/output (I/O) System, Swing, Annotations, Concurrency, Multi-Threading, Lambda and Generics.
+        • Expert level experience with Web based Application design & development using Java/ J2EETechnologies like JSP,
+        JSF, JQuery, JavaScript, HTML5, CSS, XML and JMS.
+        • Good experience working with the Java1.8 and JDK1.8 and implemented the new feature like Lambda Expressions,
+        Streams, Java Time API.
+        • Good experience in various modules of Spring framework like Spring IOC, Spring MVC, Spring Boot, Spring Data,
+        Spring Integration, Spring Cloud Stream.
+        • Expertise in implementing the persistence logic using JDBC, JPA, Spring JDBC, Hibernate framework.
+        • Extensively worked on Micro Services using SpingBoot, Spring Cloud, Spring Data and REST.
+        • Expertise in implementing Service Oriented Architecture by using SOAP and RESTful web services.
+        • Experience using cloud service such as Pivotal Cloud Foundry and hands on experience using Amazon Web Services
+        (AWS), services like EC2, S3, IAM, VPC, Route53, Cloud Watch, IAM, SNS etc.
+        • Good Experience working with the SDLC methodologies like Agile Scrum, XP, TDD and Waterfall.
+        • Hands-on experience with Application servers Tomcat, JBOSS.
+        • Experience in using IDE tools like Eclipse, NetBeans, Intellij IDEA.
+        • Experience in versioning tools like GitHub, SVN and Bitbucket.
+        • Experience in using Maven build tools and performing unit test by writing Junit test cases using Junit
+        Framework like Mockito.
+        • Good experience working with Continuous Integration and Deployment (CI/CD) tools like Bamboo and Concourse.
     </div>
   </div>
 </div>

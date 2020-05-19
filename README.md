@@ -22,7 +22,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-###### Angular Prerequisites ####
+## Make sure to have Registration-Service Springboot app running, look for GitHub link for the same ##
+
+###### Angular Steps ####
 1. Download the angular CLI using (make sure you have installed npm before) 
     ```npm install -g @angular/cli```
    
